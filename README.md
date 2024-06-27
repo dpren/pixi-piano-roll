@@ -46,9 +46,9 @@ function App() {
 
   window.addEventListener("keydown", ({ key }) => {
     if (key === " ") {
-      playbackRef.current.toggle();
+      playbackRef.current.toggle(); // ⏯️
     } else if (key === "Enter") {
-      playbackRef.current.seek("0:0:0");
+      playbackRef.current.seek("0:0:0"); // ⏹️
     }
   });
 
